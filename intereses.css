@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sobremi{
+    background: url('D:/Documents/.UNIVERSIDAD/10mo Semestre/SIGWEB/Taller SIG WEB/Taller SIG WEB/Taller SIG WEB/Nueva carpeta/img/fondoo.jpg') no-repeat;
+    color: #fff;
+    padding: 50px 20px;
+}
+.sobremi .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.sobremi h2{
+    font-size: 48px;
+    font-family: 'Century Gothic', sans-serif;
+    text-align: center;
+    padding: 20px 0;
+
+}
+.sobremi .contenido-seccion p{
+    font: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    font-family: 'Century Gothic', sans-serif;
+    text-align: justify;
+}
+.sobremi .contenido-seccion p span{
+    color: white;
+    font-weight: bold;
+    font-family: 'Century Gothic', sans-serif;
+}
+.sobremi .fila{
+    display: flex;
+}
+.sobremi .fila .col
+{
+    width: 50%;
+}
+.sobremi .fila .col h3{
+    font-size: 28px;
+    font-family: 'Century Gothic', sans-serif;
+    margin-bottom: 25px;
+}
+.sobremi .fila .col ul{
+    list-style: none;
+}
+.sobremi .fila .col ul li{
+    margin: 12px 0;
+     font-family: 'Century Gothic', sans-serif;
+      font-weight: bold;
+}
+.sobremi .fila .col ul li strong{
+    display: inline-block;
+    color: white;
+    width: 130px;
+    background-color:#0000ff;
+    border-radius: 10px;
+    font-family: 'Century Gothic', sans-serif;
+    font-weight: bold;
+}
+.sobremi .fila .col ul li span{
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.sobremi .fila .col .contenedor-intereses{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sobremi .fila .col .contenedor-intereses .interes{
+    width: 100px;
+    height: 100px;
+    background-color: #252A2E;
+    border-radius: 10px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}.sobremi .fila .col .contenedor-intereses .interes:hover{
+    background-color: blue;
+}
+.sobremi .fila .col .contenedor-intereses .interes i{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: 'Century Gothic', sans-serif;
+    font-weight: bold;
+}
+button{
+    background: black;
+cursor: pointer;
+border: none;
+padding: 10px 32px;
+color: #fff;
+font-size: 24px;
+font-weight: bold;
+position: absolute;
+margin-left: 10px;
+margin-top: 10px;
+left: 0%;
+border-radius: 12px;}
+button::before{
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg,red,blue,deeppink,blue,red,blue,deeppink,blue);
+    background-size: 800%;
+    border-radius: 10px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+@keyframes glowing{
+    0%{
+        background-position:0 0;
+    }
+    50%{
+        background-position: 400% 0;
+    }
+    100%{
+        background-position: 0 0;
+    }
+    
+}

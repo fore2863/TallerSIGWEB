@@ -1,0 +1,136 @@
+.curriculum{
+    background: url('D:/Documents/.UNIVERSIDAD/10mo Semestre/SIGWEB/Taller SIG WEB/Taller SIG WEB/Taller SIG WEB/Nueva carpeta/img/fondoo.jpg') no-repeat;
+    color: #fff;
+    padding: 50px 20px;
+}
+.curriculum .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.curriculum h2{
+    font-size: 48px;
+    font-family: 'Century Gothic', sans-serif;
+    text-align: center;
+    padding: 20px 0;
+
+}
+.curriculum .fila{
+    display: flex;
+    justify-content: space-between;
+}
+.curriculum .fila .col{
+    width: 49%;
+    padding: 0 20px;
+}
+
+.curriculum .fila .izquierda{
+    border-right: 2px solid #252A2E;
+}
+.curriculum .fila .derecha{
+    border-left: 2px solid #252A2E;
+}
+.curriculum .fila .item{
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color: #252A2E;
+    position: relative;
+}
+.curriculum .fila .item .casa{
+    color: white;
+    text-decoration: underline blue;  
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+    font-family: 'Century Gothic', sans-serif;
+    text-align: justify;
+}
+.curriculum .fila .item p{
+    line-height: 24px;
+    font-family: 'Century Gothic', sans-serif;
+    text-align: justify;
+}
+.curriculum .fila .izq{
+    border-right: 2px solid blue;
+    margin-right: 20px;
+}
+.curriculum .fila .der{
+    border-left: 2px solid blue;
+    margin-left: 20px;
+}
+.curriculum .fila .item .conectori{
+    height: 2px;
+    background-color: blue;
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    right: -47px;
+    z-index: 5;
+}
+.curriculum .fila .item .conectori .circuloi{
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: blue;
+    float: right;
+    position: relative;
+    bottom: 4px;
+}
+.curriculum .fila .item .conectord{
+    height: 2px;
+    background-color: blue;
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    left: -47px;
+    z-index: 5;
+}
+.curriculum .fila .item .conectord .circulod{
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: blue;
+    float: left;
+    position: relative;
+    bottom: 4px;
+}
+button{
+    background: black;
+cursor: pointer;
+border: none;
+padding: 10px 32px;
+color: #fff;
+font-size: 24px;
+font-weight: bold;
+position: absolute;
+margin-left: 10px;
+margin-top: 10px;
+left: 0%;
+border-radius: 12px;}
+button::before{
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg,red,blue,deeppink,blue,red,blue,deeppink,blue);
+    background-size: 800%;
+    border-radius: 10px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+@keyframes glowing{
+    0%{
+        background-position:0 0;
+    }
+    50%{
+        background-position: 400% 0;
+    }
+    100%{
+        background-position: 0 0;
+    }
+    
+}

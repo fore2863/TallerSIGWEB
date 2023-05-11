@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('D:/Documents/.UNIVERSIDAD/10mo Semestre/SIGWEB/Taller SIG WEB/Taller SIG WEB/Taller SIG WEB/Nueva carpeta/img/fondoo.jpg') no-repeat;
+    background-size: cover;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.box {
+    width: 500px;
+    background: rgba(0, 0, 0, .4);
+    margin: 0 auto;
+    margin-top: 4%;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.box-img {
+    border-radius: 50%;
+}
+
+.box h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin: 30px 0 20px;
+}
+
+.box h2 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100px;
+    margin-bottom: 20px;
+}
+
+.box p {
+    text-align: justify;
+}
+
+.box ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.box ul li {
+    display: inline-block;
+}
+
+.box ul li a {
+    color: white;
+    font-size: 45px;
+    padding: 10px 5px;
+    display: block;
+    transition: all 0.5s ease-in-out;
+}
+
+.box ul li a:hover {
+    color: #b9b9b9;
+    transform: scale(1.1)
+}
+
+.menu {
+    height: 10vh;
+    width: 100%;
+    opacity: 1;
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 25%;
+    padding-right: 10%;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: yellow;
+    transition: .3s;
+}
+
+a{
+    color: white;
+    font: bold;
+}
